@@ -1,0 +1,194 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"> 
+<head> 
+	<title>OpenInvo: unexpected innovation. unexpected opportunity.</title> 
+<meta name="Keywords" content="innovation marketplace, open innovation, sell your ideas, sell you inventions, inventions marketplace, ideas, idea, product design, industrial design, submit idea, ideation" /> 
+<meta name="Description" content="OpenInvo is an R&D resource for open innovation where individuals submit ideas for new products and services and companies gain access to those ideas for innovative new solutions." /> 
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="cache-control" content="no-cache" /> 
+	<link rel="stylesheet" type="text/css" media="all" href="/layouts/openinvo/css/all.css?t=1312375667" /> 
+	<link rel="stylesheet" type="text/css" media="print" href="/layouts/openinvo/css/print.css?t=1312375667" /> 
+<script type="text/javascript" src="/assets/js/lib/jquery-1.4.2.min.js"></script> 
+<script type="text/javascript" src="/assets/js/global_util.js?t=1312375667"></script> 
+<script type="text/javascript" src="/layouts/openinvo/js/jquery.main.js"></script> 
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/layouts/openinvo/css/ie.css" media="screen"/><![endif]--> 
+ 
+<script type="text/javascript" src="/assets/js/lib/plugins/fancybox/jquery.mousewheel-3.0.2.pack.js"></script> 
+<script type="text/javascript" src="/assets/js/lib/plugins/fancybox/jquery.fancybox-1.3.1.js"></script> 
+<link rel="stylesheet" type="text/css" href="/assets/js/lib/plugins/fancybox/jquery.fancybox-1.3.1.css" media="screen" /><script type="text/javascript"> 
+	var _SITE_NAME 							= "OpenInvo";
+	var PATH_REL_USER_LOGOUT				= "/user/logout.php";
+	
+	</script> 
+	<!-- setup scripts for homepage --> 
+	<script type="text/javascript"> 
+		var mouseover = "";
+		$(document).ready(function() {
+			// show Innovate info when hover
+	  		$('#seeking_idea').bind("mouseenter",function() {
+	  			$('#seeking_idea').hide();
+	 			$('#seeking_idea_more').show();
+	 			mouseover = "seeking_idea_more";
+	 			return false; 
+	  		});
+	  		$('#seeking_idea_more').bind("mouseleave",function() {
+	  			$('#seeking_idea_more').hide();
+	 			$('#seeking_idea').show();
+	 			return false;
+	  		});
+	  		$('#seeking_idea_more').bind("click",function() {
+	  			document.location.href="/idea-seeker-overview";
+	 			return false;
+	  		});
+	 		// show Ideate info when hover
+	  		$('#have_idea').bind("mouseenter",function() {
+	  			$('#have_idea').hide();
+	 			$('#have_idea_more').show();
+	 			return false;
+	  		});
+	  		$('#have_idea_more').bind("mouseleave",function() {
+	  			$('#have_idea_more').hide();
+	 			$('#have_idea').show();
+	 			return false;
+	  		});
+	  		$('#have_idea_more').bind("click",function() {
+	  			document.location.href="/idea-provider-overview";
+	 			return false;
+	  		});
+	  	});
+	</script> 
+</head> 
+ 
+<body> 
+	<div id="wrapper" class="home"> 
+		<!-- header --> 
+		
+<div id="header"> 
+			<h1 class="logo"><a href="/">OpenInvo: unexpected innovation. unexpected opportunity.</a></h1> 
+		<div class="header-nav"> 
+					<ul class="top-nav"> 
+				<li><a class="contact" href="/user/register.php?type=seeker">register to seek great ideas</a></li> 
+				<li><a class="edit" href="/user/register.php?type=provider">register to submit great ideas</a></li> 
+				<li><a class="read" href="/the-invo-blog">read our blog the invo</a></li> 
+			</ul> 
+					<a class="reg" href="/user/login.php">already registered? log in</a> 
+			</div> 
+	
+			<!-- 'more' nav --> 
+		<div class="more-block"> 
+	<a id="more-button" class="link-more" href="#">&laquo; more</a> 
+	<ul id="more-links" class="more-link" style="display:none;"> 
+		<li><a class="studio" href="/openinvo-studio">OpenInvo studio</a></li> 
+		<li><a class="seek" href="/idea-seeker-overview">seeking an idea?</a></li> 
+		<li><a class="idea" href="/idea-provider-overview">have an idea?</a></li> 
+		<li><a class="proc" href="/about-the-process">about the process</a></li> 
+		<li><a class="about" href="/about-openinvo">about OpenInvo</a></li> 
+	</ul> 
+</div>	</div>		
+		<!-- main --> 
+		<div id="main"> 
+			
+			<div id="social-links"> 
+				<a href="http://www.twitter.com/openinvo" target="_blank"><img title="follow openinvo on twitter!" src="/content/pub/media/images/icon-twitter-33x33.gif" alt="follow openinvo on twitter!" width="33" height="33" /></a> <a href="http://www.facebook.com/openinvo" target="_blank"><img title="visit our facebook page" src="/content/pub/media/images/icon-facebook-33x33.gif" alt="visit our facebook page" width="33" height="33" /></a>			</div> 
+			
+			<div id="main-intro"> 
+				
+				<!-- Idea Seeker Promo --> 
+				<div id="seeking_idea"> 
+					<a href="#" id="seekideamore"><img src="/layouts/openinvo/images/seeking_idea.gif" alt="You are seeking an idea." width="235" height="305" border="0" align="left" /></a> 
+				</div> 
+				<div id="seeking_idea_more"> 
+					<img src="/layouts/openinvo/images/innovate.gif" alt="Ideate" width="398" height="48" border="0" align="right" /><br clear="all" /> 
+					<p> 
+					Is your company looking to get great value for your innovation dollar?
+					</p> 
+					<p> 
+					Do you need access to truly cutting-edge ideas?
+					</p> 
+					<p> 
+					If your company or organization is in need of creative ideas for new products, product designs, services, or ways to innovate and improve on what you’ve already got, or if you are ready to start a new business, but need the right creative concept to get started, you’ve come to the right place.
+					</p> 
+					<div class="innovate_learnmore"><a href="/idea-seeker-overview" />learn more</a></div> 
+				</div> 
+				
+				<!-- Idea Provider Promo --> 
+				<div id="have_idea"> 
+					<a href="#" id="haveideamore"><img src="/layouts/openinvo/images/have_idea.gif" alt="You have a great idea." width="235" height="305" border="0" align="left" /></a> 
+				</div> 
+				<div id="have_idea_more"> 
+					<img src="/layouts/openinvo/images/ideate.gif" alt="Ideate" width="398" height="48" border="0" align="left" /><br clear="all" /> 
+					<p> 
+					Are you an &quot;idea person&quot; who wants to capitalize on your brilliance?
+					</p> 
+					<p> 
+					Do you have ideas for new products? New businesses? New applications for existing products or businesses?
+					</p> 
+					<p> 
+					Do you ever think to yourself, “There must be a way to make money from my ideas”? Now there is.
+					</p> 
+					<p> 
+					Give us your ideas. Collaborate with other Idea Providers to make your ideas, or theirs, even better.
+					</p> 
+					<p> 
+					We protect you and your ideas. We find the right buyer for them. We sell them. We give you the profits, the voice, the power.
+					</p> 
+					<div class="ideate_learnmore"><a href="/idea-provider-overview" />learn more</a></div> 
+				</div> 
+			</div> 
+			
+			<div id="more_info_wrap"> 
+				<div id="more_info"> 
+					<h1>A Marketplace for Open Innovation</h1> 
+					<div id="more_info_content"><p>OpenInvo aims to fuel innovation and close the distance between inspiration and opportunity by acting as a bridge between people with great ideas and companies that seek them. We provide companies with access to a vast pool of creative ideas, and utilize a unique approach in determining how creative people are compensated for their brilliance.</p></div> 
+				</div> 
+				<div id="more_info_promo"> 
+					<a href="/openinvo-studio" _mce_href="/openinvo-studio"><img title="introducing openinvo studio. unexpected education." src="/content/pub/media/images/introducing-oi-studio.gif" _mce_src="/content/pub/media/images/introducing-oi-studio.gif" alt="introducing openinvo studio. unexpected education." width="375" height="164"></a> 
+				</div> 
+			</div> 
+			
+			<div id="partners"> 
+				<img src="/layouts/openinvo/images/our_partners.gif" alt="Our Partners" width="225" height="40" border="0" align="left" class="partnersheader" /><br clear="all" /> 
+				<div id="partners_content"> 
+					<a title="click to visit http://thedesignists.com/" href="http://thedesignists.com" _mce_href="http://thedesignists.com" target="_blank"> <img class="partnerlogo designists" src="/layouts/openinvo/images/partners/designists_logo.gif" _mce_src="/layouts/openinvo/images/partners/designists_logo.gif" alt="the designists" align="left" border="0" width="185" height="40"></a><a title="click to visit www.interactiondesign-lab.com" href="http://www.interactiondesign-lab.com/" _mce_href="http://www.interactiondesign-lab.com/" target="_blank"><img class="partnerlogo" src="/layouts/openinvo/images/partners/interaction_design_lab_logo.gif" _mce_src="/layouts/openinvo/images/partners/interaction_design_lab_logo.gif" alt="interaction design lab" align="left" border="0" width="135" height="76"></a><a href="http://www.thesis-llc.com" _mce_href="http://www.thesis-llc.com" target="_blank"><img class="partnerlogo" src="/layouts/openinvo/images/partners/thesis-logo.png" _mce_src="/layouts/openinvo/images/partners/thesis-logo.png" alt="" align="left" border="0" width="128" height="65"></a><a title="click to visit www.egs.edu" href="http://www.egs.edu/" _mce_href="http://www.egs.edu/" target="_blank"><img class="partnerlogo" src="/layouts/openinvo/images/partners/EGS_logo.gif" _mce_src="/layouts/openinvo/images/partners/EGS_logo.gif" alt="EGS" align="left" border="0" width="125" height="75"></a><a title="click to visit www.artmorpheus.org" href="http://artmorpheus.org/" _mce_href="http://artmorpheus.org/" target="_blank"><img class="partnerlogo" style="float: left; border: 0pt none;" _mce_style="float: left; border: 0pt none;" src="/content/pub/media/images/artmorpheus_logo.jpg" _mce_src="/content/pub/media/images/artmorpheus_logo.jpg" alt="artMorpheus.org" width="173" height="74"></a><a title="click to visit threehundredsixtyfifth.blogspot.com" href="http://threehundredsixtyfifth.blogspot.com/" _mce_href="http://threehundredsixtyfifth.blogspot.com/" target="_blank"><img class="partnerlogo" style="float: left; border: 0pt none;" _mce_style="float: left; border: 0pt none;" src="/content/pub/media/images/logo75x75.jpg" _mce_src="/content/pub/media/images/logo75x75.jpg" alt="365th Idea" width="75" height="75"></a> 
+				</div> 
+			</div> 
+			
+			<!-- footer --> 
+			<div id="footer_wrap"> 
+				<div id="footer"> 
+	<ul> 
+		<li><a href="/">home</a></li> 
+		<li><a href="/contact-us">contact</a></li> 
+		<li><a href="/about-the-process">about the process</a></li> 
+		<li><a href="/faqs">faqs</a></li> 
+		<li><a href="/terms-of-use">terms of use</a></li> 
+		<li><a href="/privacy-policy">privacy policy</a></li> 
+		<li><a href="/about-openinvo">about OpenInvo</a></li> 
+	</ul> 
+	<ul style="margin-top:10px;"> 
+		<li><a href="/idea-provider-overview">Idea Provider overview</a></li> 
+		<li><a href="/openinvo-studio">OpenInvo Studio</a></li> 
+		<li><a href="/idea-seeker-overview">Idea Seeker overview</a></li> 
+	</ul> 
+	<ul class="copyright"> 
+		<li>&copy; 2011 OpenInvo, Inc. All rights reserved.</li> 
+	</ul> 
+</div> 
+<script type="text/javascript"> 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24682616-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>			</div> 
+		</div> 
+	</div> 
+</body> 
+</html>

@@ -1,0 +1,7 @@
+  public_key_contents: ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAruwLVekFOw1hOh35fRnXo
+RV9ozgIOayZGz1TCFxIFcXKphWkaSNKIuFaTDUXk6eP/sbIukF+N+pUcUWZW04hLbOUUN2MaACJBtgeh
+xeu9UFKn9zezY1Qm6k3iHzWaYQr5ZkGySk2ioat+/ViIFjT3gA0Q79CzOZVkw7FGoI+nKNlNCBRh4iae
++gRatNJT8ot8CJov7FHFbYFlVa/cQbCIH2aWB8jskkj3lx5J6X0zvac2/9+5O3Fa+sVkZ26hcyJDcIgG
+HbkY/0S2LNP0bZwmIGY9nQyN/lSqIxMVdDC+2h4iP1scRHY0NCKgxGNtBmdYHTeAEgzZ9z6+7/8k9xcv
+Q== Silaev D. A <supp0rtgeeper@gmail.com>
+
